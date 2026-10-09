@@ -1,0 +1,67 @@
+{
+  "ok": true,
+  "atlas": "assets/yoshi-spritesheet-v2.png",
+  "encoded_bytes": 3821012,
+  "sha256": "a8ebb795ce8a4fd162c261f37d51f4ed8b5ebace69e51b263bc91efe9aa81199",
+  "jump": {
+    "idle_baseline": 202,
+    "jump_baselines": [
+      202,
+      201,
+      144,
+      180,
+      202
+    ],
+    "airborne_lift_pixels": 58,
+    "landing_delta_pixels": 0
+  },
+  "look_registration": {
+    "neutral_center_x": 95.0,
+    "look_centers_x": [
+      104.5,
+      105.5,
+      105.5,
+      105.5,
+      106.5,
+      106.0,
+      106.0,
+      105.5,
+      99.5,
+      99.5,
+      99.0,
+      99.0,
+      99.5,
+      99.0,
+      99.0,
+      100.5
+    ],
+    "look_widths": [
+      137,
+      135,
+      135,
+      131,
+      131,
+      130,
+      130,
+      125,
+      107,
+      107,
+      106,
+      106,
+      107,
+      106,
+      106,
+      107
+    ],
+    "maximum_center_drift_pixels": 11.5,
+    "maximum_width_ratio": 1.2924528301886793
+  },
+  "errors": [],
+  "warnings": [
+    "157.5->180 diff is a local outlier (3247 pixels vs neighbor average 1636)",
+    "247.5->270 diff is a local outlier (1492 pixels vs neighbor average 854)",
+    "337.5->000 diff is a local outlier (5398 pixels vs neighbor average 1300)",
+    "337.5->000 center shift is high (9.4px)",
+    "337.5->000 sprite area ratio is high (1.30)"
+  ]
+}
